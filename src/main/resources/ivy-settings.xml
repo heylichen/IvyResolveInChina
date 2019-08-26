@@ -16,11 +16,11 @@
 
   <resolvers>
     <chain name="main">
-      <!--<filesystem name="local-maven-2" m2compatible="true" local="true"-->
-                  <!--cache="nocache">-->
-        <!--<ivy pattern="${local-maven2-pattern}.pom" />-->
-        <!--<artifact pattern="${local-maven2-pattern}(-[classifier]).[ext]" />-->
-      <!--</filesystem>-->
+      <filesystem name="local-maven-2" m2compatible="true" local="true"
+                  cache="nocache">
+        <ivy pattern="${local-maven2-pattern}.pom" />
+        <artifact pattern="${local-maven2-pattern}(-[classifier]).[ext]" />
+      </filesystem>
 
       <ibiblio name="repomanager" m2compatible="true"
                root="https://maven.aliyun.com/repository/public" cache="default"/>
